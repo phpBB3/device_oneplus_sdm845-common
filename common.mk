@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
+# DeviceParts
+PRODUCT_PACKAGES += \
+    PartsBin
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
